@@ -1,0 +1,132 @@
+html{
+   /* background-color: red; */
+}
+section{
+    background-color: white; 
+
+    height: 100px;
+    width: 100px;
+
+    border: 10px solid green;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+section{
+    font-size: 20px;
+}
+
+.block{
+    display: block;
+}
+.inlineblock{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.Navlink{
+    font-size: 1.5em;
+}
+.Navlink:hover{
+    font-size: 1.5em;
+}
+.NavStyle{
+    color: red;
+}
+a{
+color: black;
+text-decoration-color: none;
+border-bottom: 1px solid black;
+}
+
+a:hover{
+color: #ef457f;
+text-decoration-color: none;
+border-bottom: 1px solid #ef457f;
+}
+
+input:focus {
+    color:#ef457f;
+    border: 2px dotted #ef457f;
+}
+
+li{
+    color: black;
+}
+
+li:first-child{
+    color: yellow;
+    text-decoration-color: none;
+    border-bottom: 1px solid black;
+}
+
+a:hover{
+color: #ef457f;
+text-decoration-color: none;
+border-bottom: 1px solid #ef457f;
+}
+
+
+input:focus {
+    color: #588F27;
+    border: 2px dotted #ef457f;
+}
+
+/* li{
+    color: blue;
+
+}
+li:first-chld{
+    color: red;
+
+} */
+
+li:nth-child(2){
+    color: pink;
+} 
+
+li:nth-child(4n+4){
+    color:purple;
+}
+
+li:last-child{
+    color: yellowgreen;
+
+}
+article{
+left:30ox;
+}
+.staticCling{
+    position: static;
+    border: none;
+    background-color: teal;
+}
+.relativity{
+    position: relative;
+    border: none;
+    top:20px;
+    background-color: rebeccapurple;
+}
+.absolutely{
+    /*document */
+    position: static;
+    border: none;
+    top:20px;
+    background-color: goldenrod;
+}
+section .fixer{
+    /* window */
+    position: static;
+    border: none;
+    top:20px;
+    background-color: violet;
+}
+/*
+section{
+    width: 40%;
+    float: left;
+    margin: 0 5%
+    margin-bottom: 40px;
+}
+*/
