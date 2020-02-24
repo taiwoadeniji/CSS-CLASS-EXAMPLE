@@ -1,6 +1,17 @@
 html{
    /* background-color: red; */
 }
+/*Navbar */
+Nav a{
+    margin: 0.1%;
+    float: left;
+    width: 10%;
+}
+header{
+    background-color: aqua;
+    width: 50%;
+}
+}
 section{
     background-color: white; 
 
@@ -56,9 +67,10 @@ li{
 }
 
 li:first-child{
-    color: yellow;
+    color: blue;
     text-decoration-color: none;
     border-bottom: 1px solid black;
+   
 }
 
 a:hover{
@@ -91,7 +103,7 @@ li:nth-child(4n+4){
 }
 
 li:last-child{
-    color: yellowgreen;
+    color: orange;
 
 }
 article{
@@ -113,7 +125,7 @@ left:30ox;
     position: static;
     border: none;
     top:20px;
-    background-color: goldenrod;
+    background-color: greenyellow;
 }
 section .fixer{
     /* window */
